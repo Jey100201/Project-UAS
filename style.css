@@ -1,0 +1,290 @@
+/*style*/
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(foto/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.judul {
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.header ul {
+    text-align: center;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.header a {
+    text-decoration: none;
+    padding: 4px;
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+.header a:hover {
+    background-color: white;
+    color: black;
+}
+
+.header .fa {
+    margin-right: 7px;
+}
+
+.search {
+    position: absolute;
+    top: 170px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+}
+
+.cari {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-radius: 25px 0 0 25px;
+    padding-left: 10px;
+    height: 30px;
+    width: 340px;
+}
+
+.submit {
+    position: relative;
+    left: -4px;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-radius: 0 25px 25px 0;
+    padding-right: 8px;
+    height: 30px;
+    width: 130px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: skyblue;
+}
+
+.mycard {
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+}
+
+.welcome {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.layanan {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.bttn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    color: #e74c3c;
+    cursor: pointer;
+    display: inline-block;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 200px;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200px;
+}
+
+.bttn:hover,
+.bttn:focus {
+    color: #fff;
+    outline: 0;
+}
+
+.tombol {
+    border-color: #3498db;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    transition: all 150ms ease-in-out;
+}
+
+.tombol:hover {
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+
+
+.footer {
+    background-color: lightseagreen;
+    margin-top: 20px;
+    height: 27px;
+}
+
+.copy {
+    font-size: 15px;
+    text-align: center;
+}
+
+
+/*product*/
+.produk {
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.container .col-md-10 {
+    margin-left: 75px;
+    margin-top: 50px;
+}
+
+.list {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.container .card {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.container .card img {
+    height: 380px;
+}
+
+/**detail**/
+.main {
+    width: 900px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 5px;
+}
+
+.kiri {
+    height: 150px;
+    width: 130px;
+    margin: 5px;
+    float: left;
+    display: block;
+}
+
+.kanan {
+    height: 150px;
+    width: 130px;
+    margin: 5px;
+    float: right;
+    display: block;
+}
+
+.p3,
+.p5,
+.p7,
+.p9,
+.p11 {
+    width: 440px;
+    margin-top: 20px;
+    float: left;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.p4,
+.p6,
+.p8,
+.p10,
+.p12 {
+    width: 440px;
+    margin-top: 19px;
+    float: right;
+    box-sizing: border-box;
+}
+
+.p1 {
+    width: 440px;
+    padding-top: 100px;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.p2 {
+    width: 440px;
+    margin-top: -234px;
+    float: right;
+    box-sizing: border-box;
+}
+
+.tulisan {
+    color: white;
+}
+
+/*contact us*/
+.inti {
+    width: 900px;
+    margin: auto;
+    padding: 5px;
+}
+
+.buatform {
+    margin-top: 100px;
+    color: white;
+}
+
+.kaki .copy {
+    background-color: lightseagreen;
+    margin-top: 90px;
+    margin-bottom: 0px;
+    height: 33px;
+}
+
+
+
+
+
+/* clearfix */
+.cf:before,
+.cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
